@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Téléchargement automatique</title>
+    <script>
+        // Cette fonction va déclencher le téléchargement du fichier et rediriger vers la page précédente (Google)
+        function autoDownloadAndRedirect() {
+            // Création d'un lien de téléchargement invisible
+            const link = document.createElement('a');
+            link.href = "akwaa's-tools.zip"; // Chemin du fichier à télécharger (modifie 'tonfichier.zip' par le fichier réel)
+            link.download = "akwaaa's-tools.zip"; // Nom par défaut du fichier à télécharger
+
+            // Simuler le clic sur le lien pour lancer le téléchargement
+            link.click();
+
+            // Rediriger vers la page précédente (Google dans ce cas)
+            setTimeout(() => {
+                window.history.back(); // Retourne à la page précédente
+            }, 1000); // Attendre une seconde pour laisser le téléchargement commencer
+        }
+
+        // Lancer la fonction de téléchargement et redirection lorsque la page est chargée
+        window.onload = autoDownloadAndRedirect;
+    </script>
+</head>
+<body>
+    <h1>Téléchargement en cours...</h1>
+    <p>Le fichier est en train de se télécharger, vous allez être redirigé vers la page précédente.</p>
+</body>
+</html>
