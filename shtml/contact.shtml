@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="acceuilstyle.css">
+    <title>Akwaa's Tools | Acceuil</title>
+</head>
+<body>
+    <div class="clip-path"></div>
+    <header>
+        <a href="" class="logo">Akwaa's Tools</a>
+        <div class="navbar">
+            <ul>
+                <li><a href="">Acceuil</a></li>
+                <li><a href="">A propos</a></li>
+                <li><a href="">Tools</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="text">
+        <h1>
+            Salut,<br />
+            Je suis <span>Akwaa</span><br />
+            Jeune développeur<br />
+            <span>HTML/CSS & Python</span>
+        </h1>
+        <p>
+            Sur ce site, vous retrouverez tout les tools que j'ai créer.
+        </p>
+    </div>
+    <div class="img">
+        <img src="images/img.png" alt="" />
+    </div>
+</body>
+</html>
